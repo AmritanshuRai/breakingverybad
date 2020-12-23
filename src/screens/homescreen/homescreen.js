@@ -77,6 +77,7 @@ const Homescreen = ({ history }) => {
     let arr = [];
     if (e.target.value === 'all') {
       setFilteredCharacters(arr);
+      setCategory(e.target.value);
       return;
     }
     setCategory(e.target.value);
