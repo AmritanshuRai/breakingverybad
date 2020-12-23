@@ -97,7 +97,7 @@ function Profile({ history, match }) {
       </p>
       {!quotes?.length && <p>No quotes Found.</p>}
       {quotes?.map((item) => {
-        return item.quote;
+        return <p>{item.quote}</p>;
       })}
     </section>
   );
